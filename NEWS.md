@@ -1,3 +1,11 @@
+# numbat 1.5.2
+
+* Replace pryr dependency with base R solution for memory logging
+  - Removes deprecated CRAN dependency
+  - Uses base R gc() function for memory reporting
+  - Maintains identical functionality and output format
+  - No user-facing changes
+
 # numbat 1.5.1 - 10/03/2025
 
 * Allow users to input their own GTF (#174)
